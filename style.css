@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
 }
 
 
@@ -23,6 +24,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0;
 }
 
 header {
@@ -60,7 +62,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #F9FAF8;;
+    color: #F9FAF8;
+    flex: 1;
 }
 
 .button1 {
@@ -70,4 +73,51 @@ nav {
     font-size: 16px;
     border-radius: 8px;
     padding: 10px 30px;
+}
+
+
+
+.header-text {
+    width: 450px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.content1 {
+    text-align: center;
+}
+
+.blue-square {
+   border: 5px solid #3882F6;
+   border-radius: 8px;
+   height: 200px;
+   width: 200px;
+   
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.content2 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
 }
